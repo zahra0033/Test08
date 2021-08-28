@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //maghlob adad
+            int a = int.Parse(Console.ReadLine());
+            int y = a / 10;
+            int x = a % 10;
+            x = x * 10;
+            int d = x + y;
+            Console.WriteLine(d);
+            Console.ReadKey();
+        }
+    }
+}
